@@ -1,0 +1,43 @@
+.App {
+ 
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.cart-icon {
+  display: flex;
+  text-align: end;
+  margin-right: 2rem;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.cart-icon img {
+  width: 5rem;
+  height: 5rem;
+  color: #2f80ed;
+}
+
+.cart-icon p {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  right: -1.2rem;
+  top: 0.9rem;
+  border-radius: 50%;
+  background: #99cbf7;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
